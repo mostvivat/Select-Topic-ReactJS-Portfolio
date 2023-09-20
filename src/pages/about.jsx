@@ -48,6 +48,11 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<h2>
+                            <i class="fas fa-laptop-code"></i>
+                            Skills & Abilitties
+                        	</h2>
+
 							</div>
 
 							<div className="about-left-side">
