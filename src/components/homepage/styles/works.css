@@ -1,0 +1,47 @@
+@import "../../../data/styles.css";
+
+.works-body {
+	margin-bottom: 10px;
+}
+
+.work {
+	display: flex;
+	padding-bottom: 40px;
+	width: 400px;
+}
+
+.work-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    outline: 6px solid rgb(255, 255, 255);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+    object-fit:scale-down; /* This will make the image cover the entire content box */
+    display: block; /* To ensure the image is treated as a block-level element */
+    overflow: hidden; /* To hide any part of the image that might overflow the circular container */
+}
+
+.work-title {
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+	margin-top: -3px;
+	color: var(--secondary-color);
+}
+
+.work-subtitle {
+	position: absolute;
+	font-size: 12px;
+	color: var(--secondary-color);
+	padding-top: 22px;
+	padding-left: 50px;
+}
+
+.work-duration {
+	position: absolute;
+	width: 350px;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: right;
+	color: var(--tertiary-color);
+}
