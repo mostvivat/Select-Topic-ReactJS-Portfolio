@@ -21,9 +21,9 @@ const INFO = {
 	},
 
 	about: {
-		title: "I'm Most.",
+		title: "I'm Most",
 		description:
-			"Now, I'm 22 years old. I'm based in Pathumthani, Thailand. I'm undergraduated from King Monkut's University Of Technology North Bangkok.I'm very passionate about improving my  Testing skills.",
+			"Now, I'm 22 years old. I'm based in Bangkok, Thailand. I'm undergraduated from King Monkut's University Of Technology North Bangkok.I'm very passionate about improving my  Testing skills.",
 	},
 
 
