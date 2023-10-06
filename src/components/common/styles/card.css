@@ -4,6 +4,7 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	outline: 2px solid #f4f4f5;
+	background-color: #f4f4f5;
 }
 
 .card-container {

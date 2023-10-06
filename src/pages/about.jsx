@@ -3,12 +3,12 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
 
+import Socials from "../components/about/socials";
+import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
+import { HiDownload } from "react-icons/hi";
 import "./styles/about.css";
 
 const About = () => {
@@ -23,36 +23,26 @@ const About = () => {
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
 			</Helmet>
 
 			<div className="page-content">
 				<NavBar active="about" />
 				<div className="content-wrapper">
-					<div className="about-logo-container">
-						<div className="about-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="about-container">
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
-								<h2>
-                            <i class="fas fa-laptop-code"></i>
-                            Skills & Abilitties
-                        	</h2>
+								<a className="download-btn" href="/Resume_Vivat.pdf" download>
+   									 Download CV <HiDownload className="download-icon" />
+								</a>
 
+
+								<Skills/>
 							</div>
 
 							<div className="about-left-side">
@@ -65,7 +55,6 @@ const About = () => {
 										/>
 									</div>
 								</div>
-
 								<div className="about-socials">
 									<Socials />
 								</div>

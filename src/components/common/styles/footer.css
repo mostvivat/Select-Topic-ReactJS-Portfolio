@@ -26,22 +26,22 @@
 
 .footer-nav-link-item {
 	font-weight: bold;
-	font-size: 80%;
+	font-size: 90%;
 }
 
 .footer-nav-link-list a {
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: var(--quaternary-color);
 }
 
 .footer-nav-link-list a:hover {
-	color: var(--link-color);
+	color: var(--linkhover-color);
 }
 
 .footer-credits-text {
 	justify-content: flex-end;
 	color: var(--tertiary-color);
-	font-size: 14px;
+	font-size: 20px;
 	text-align: right;
 }
 

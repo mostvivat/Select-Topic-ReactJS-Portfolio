@@ -24,7 +24,7 @@
 }
 
 .homepage-title {
-	width: 85% !important;
+	width: 55% !important;
 }
 
 .homepage-subtitle {
@@ -66,11 +66,12 @@
 }
 
 .homepage-social-icon:hover {
-	color: var(--primary-color);
+	color: var(--toplinkhover-color);
 }
 
 .homepage-after-title {
 	display: flex;
+	
 }
 
 .homepage-projects {
@@ -89,8 +90,8 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
+	flex-basis: 470px;
+	margin-left: -25px;
 }
 
 @media (max-width: 1024px) {
@@ -100,7 +101,7 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column; 
 		align-items: flex-start;
 		width: 100%;
 		order: 2;

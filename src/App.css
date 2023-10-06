@@ -18,33 +18,12 @@
 }
 
 .page-content {
-	background-color: white;
-	position: relative;
-}
-
-.page-content:before,
-.page-content:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
-}
-
-.page-content:before {
-	left: 0;
-	z-index: 1;
-}
-
-.page-content:after {
-	right: 0;
-	z-index: 1;
+    background: linear-gradient(180deg, #F8DAD0, #BCFEFE, #2D99AE, #0C5776, #114fa7);
+    position: relative;
 }
 
 .content-wrapper {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
@@ -66,7 +45,7 @@
 }
 
 .page-footer {
-	position: block;
+    position: block;
 }
 
 .page-footer::before {

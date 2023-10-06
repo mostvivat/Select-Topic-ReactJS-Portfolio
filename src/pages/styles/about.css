@@ -27,6 +27,7 @@
 
 .about-right-side {
 	flex-basis: 900px;
+	margin-right: 20px;
 }
 
 .about-title {
@@ -114,4 +115,32 @@
 	.about-image-container {
 		width: 80%;
 	}
+}
+/* Add this to your about.css or another CSS file */
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.download-icon {
+    margin-left: 10px;
+    opacity: 0.6;
+    transition: transform 0.3s ease;
+}
+
+.download-btn:hover .download-icon {
+    transform: translateY(-2px);
 }

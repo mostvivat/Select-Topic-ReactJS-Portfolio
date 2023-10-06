@@ -7,7 +7,6 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
 		github: "https://github.com/mostvivat",
 		linkedin: "https://linkedin.com/",
 		instagram: "https://instagram.com/",
@@ -15,15 +14,20 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Software Tester /Quality Assurance",
+		title: "Software Tester/ Quality Assurance",
 		description:
 			"hello",
 	},
 
 	about: {
-		title: "I'm Most",
+		title: "Hi , I'm Vivat Chongsomchit",
 		description:
 			"Now, I'm 22 years old. I'm based in Bangkok, Thailand. I'm undergraduated from King Monkut's University Of Technology North Bangkok.I'm very passionate about improving my  Testing skills.",
+	},
+	certificate: {
+		title: "What My Programming Skills Included?",
+		description:
+			"I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.",
 	},
 
 
