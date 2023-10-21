@@ -1,0 +1,26 @@
+.button {
+  font-family: 'RobotoMono Regular';
+  font-size: 25px;
+  background-color: var(--white-color);
+  padding: 0.7em 1.5em;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 15px;
+  display: inline-block;
+  color: black;
+  text-decoration: none; /* Added this line to remove underline */
+}
+
+.button:hover {
+  text-decoration: none; /* Added this line to remove underline on hover */
+}
+
+.button-outline {
+  background-color: transparent;
+  color: var(--gray-1);
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 2rem;
+  }
+}

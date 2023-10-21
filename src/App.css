@@ -18,10 +18,10 @@
 }
 
 .page-content {
-    background: linear-gradient(180deg, #F8DAD0, #BCFEFE, #2D99AE, #0C5776, #114fa7);
+    background: linear-gradient(180deg, #faeae5, #BCFEFE, #7be9ff);
     position: relative;
 }
-
+/* background: linear-gradient(180deg, #F8DAD0, #BCFEFE, #7be9ff); */
 .content-wrapper {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -33,6 +33,7 @@
 	font-size: 45px;
 	font-weight: 700;
 	width: 70%;
+	font-family: 'RobotoMono Regular';
 }
 
 .subtitle {
@@ -42,6 +43,7 @@
 	line-height: 28px;
 	width: 70%;
 	margin-top: 25px;
+	font-family: 'RobotoMono Regular';
 }
 
 .page-footer {

@@ -3,8 +3,9 @@
 .card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 2px solid #f4f4f5;
-	background-color: #f4f4f5;
+	outline: 2px solid #ffffff;
+	background-color: #ffffff;
+	
 }
 
 .card-container {
@@ -23,6 +24,7 @@
 }
 
 .card-title {
+	
 	color: var(--secondary-color);
 	font-size: 14px;
 	padding-left: 20px;

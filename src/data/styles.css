@@ -7,9 +7,10 @@
 	--link-color: #e71009;
 	--linkhover-color: #FF8C00;
 	--toplink-color: #8B0000;
-	--toplinkhover-color: #FEBCBC;
+	--toplinkhover-color: #f19d58;
+	--white-color: #ffffff;
 	/* ---------------------- */
-
+	--gray-1: #BCB4B4;
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;
 	--secondary-font: "Roboto", sans-serif;

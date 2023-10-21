@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -12,16 +12,18 @@ import {
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+import AllProjects from "../components/homepage/allProjectshome";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import "./styles/homepage.css";
+import AboutSection from "../components/homepage/AboutSection";
 
 const Homepage = () => {
 	
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
 
 	
 
@@ -41,16 +43,19 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container"></div>
 
-					<div className="homepage-container">
+					<div className="homepage-container" >
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-								<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=500&color=F7AB6C&width=540&height=100&lines=Hello%2CI'm+Most.+;an++undergraduate+student;at+KMUTNB.+" alt="Typing SVG" /></a>									
+									<div class="typewriter-text">
+  									<div class="line" id="line1">
+    									Hello 👋, I'm Vivat Chongsomchit
+ 									</div>
+  									<div class="line" id="line2">
+									  an undergraduate student at KMUTNB
+  									</div>
+									</div>
 								</div>
-
-								{/* <div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
-								</div> */}
 							</div>
 
 							<div className="homepage-first-area-right-side">
@@ -108,7 +113,7 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-
+						<AboutSection className="about-section" />
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
@@ -122,8 +127,8 @@ const Homepage = () => {
 						
 					</div>
 					<div className="page-footer">
-							<Footer />
-					</div>
+  <Footer />
+</div>
 				</div>
 			</div>
 		</React.Fragment>

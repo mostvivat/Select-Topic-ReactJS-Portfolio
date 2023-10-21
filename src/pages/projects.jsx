@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import AllProjects from "../components/projects/allProjects";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
 import "./styles/projects.css";
 
 const Projects = () => {
@@ -24,7 +21,6 @@ const Projects = () => {
 				<meta name="description" content={currentSEO.description} />
 				
 			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
@@ -33,13 +29,6 @@ const Projects = () => {
 							Things I’ve made trying to put my dent in the
 							universe.
 						</div>
-
-						<div className="subtitle projects-subtitle">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores magnam 
-							architecto ducimus vero libero adipisci culpa commodi labore temporibus, 
-							placeat beatae doloribus est aut eius sunt aliquam! Quod, nemo.
-						</div>
-
 						<div className="projects-list">
 							<AllProjects />
 						</div>
@@ -52,5 +41,4 @@ const Projects = () => {
 		</React.Fragment>
 	);
 };
-
 export default Projects;

@@ -12,11 +12,11 @@
 
 .social-icon {
 	font-size: 15px;
-	color: var(--quaternary-color);
+	color: #000000;
 }
 
 .social-text {
-	color: var(--quaternary-color);
+	color: #000000;
 	padding-left: 30px;
 	margin-top: -20px;
 	font-weight: 600;
@@ -27,7 +27,7 @@
 	content: "";
 	display: block;
 	padding-top: 20px;
-	border-top: 3px solid #f4f4f5;
+	border-top: 3px solid #6767f8;
 	margin-top: 20px;
 }
 

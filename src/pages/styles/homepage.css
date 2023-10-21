@@ -5,6 +5,7 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 130px;
+	padding-bottom: 120px;
 }
 
 .homepage-container {
@@ -14,7 +15,7 @@
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	
 }
 
 .homepage-first-area-left-side {
@@ -24,7 +25,7 @@
 }
 
 .homepage-title {
-	width: 55% !important;
+	width: 100% !important;
 }
 
 .homepage-subtitle {
@@ -37,8 +38,8 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 400px;
+	height: 400px;
 }
 
 .homepage-image-wrapper {
@@ -93,7 +94,17 @@
 	flex-basis: 470px;
 	margin-left: -25px;
 }
+#line1 {
+	margin-top: 10rem;
+	font-size: 40px; /* Adjust size as needed */
+}
+  
+  #line2 {
+	font-size: 30px; /* Adjust size as needed */
+  }
+  
 
+  
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
@@ -149,3 +160,68 @@
 		margin-right: -25px;
 	}
 }
+@keyframes typing {
+	from { width: 0; }
+	to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+	from, to { border-color: transparent; }
+	50% { border-color: black; } /* Adjusted to black for visibility against the gradient text */
+  }
+  
+  .typewriter-text {
+	font-family: 'Fira Code', monospace;
+	font-size: 35px;
+	color: #F7AB6C;
+	overflow: hidden;
+	white-space: nowrap;
+  }
+  
+  .line {
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+	background: linear-gradient(90deg, #F7AB6C, rgb(245, 142, 142));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent; /* This makes the text color transparent, showing the gradient underneath */
+  }
+  
+  #line1 {
+	animation: typing 3s steps(44, end) 1s 1 normal both,
+			   blink-caret .75s step-end infinite 4s;
+  }
+  
+  #line2 {
+	animation: typing 3s steps(44, end) 4s 1 normal both,
+			   blink-caret .75s step-end infinite 7s;
+  }
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .homepage-image {
+	animation-name: fadeIn, shake; /* Added shake animation here */
+	animation-duration: 2s, 0.5s; /* Added duration for shake animation */
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s, 7s; /* Added delay for shake animation - it starts after 7 seconds (text animation duration) */
+	width: 100%;
+	height: auto;
+  }
+  

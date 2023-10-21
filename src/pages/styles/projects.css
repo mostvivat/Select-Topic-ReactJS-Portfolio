@@ -31,3 +31,11 @@
 		width: calc(100% / 2);
 	}
 }
+
+.projects-title {
+	width: 100% !important;
+}
+
+.projects-subtitle {
+	width: 85% !important;
+}

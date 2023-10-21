@@ -1,0 +1,110 @@
+/* Work.css */
+.article {
+    padding-top: 2rem;
+    border-bottom: 2px solid #2C3A47;
+    border-opacity: 20%;
+    padding-bottom: 1.25rem;
+}
+
+.article.dark {
+    border-color: #E2E8F0;
+    border-opacity: 20%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-content {
+    color: #2C3A47;
+}
+
+.text-content.dark {
+    color: #E2E8F0;
+}
+
+.md\:text-lg {
+    font-size: 1.125rem;
+}
+
+.lg\:text-xl {
+    font-size: 1.25rem;
+}
+
+.btn {
+    background-color: #68D391;
+    color: #2C7A7B;
+    font-size: 0.75rem;
+    display: inline-block;
+    border-radius: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    min-width: fit-content;
+}
+
+.pt-2 {
+    padding-top: 0.5rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.md\:flex-row {
+    flex-direction: row;
+}
+
+.pr-5 {
+    padding-right: 1.25rem;
+}
+
+.dark\:fill-light-heading {
+    fill: #E2E8F0;
+}
+
+.fill-dark-heading {
+    fill: #2C3A47;
+}
+
+.min-w-fit {
+    min-width: fit-content;
+}
+
+.pl-1 {
+    padding-left: 0.25rem;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.md\:text-sm {
+    font-size: 0.875rem;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.md\:text-sm {
+    font-size: 0.875rem;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.min-w-fit {
+    min-width: fit-content;
+}

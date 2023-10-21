@@ -1,0 +1,80 @@
+@import "../../../data/styles.css";
+
+.certificate {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.99;
+	height: 100%;
+	background: #fffffff1;
+	
+}
+
+.certificate a {
+	text-decoration: none;
+}
+
+.certificate:hover {
+	background: #f1f1f1f1;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.certificate:hover .certificate-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.certificate-container {
+	padding: 30px;
+	width: 300px;
+		
+}
+
+.certificate-logo {
+	width: 30px;
+}
+
+
+.certificate-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.certificate-description {
+	color: var(--secondary-color);
+}
+
+.certificate-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.certificate-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.certificate-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}
+.certificate-image img {
+	width: 100%; /* or any specific width */
+	height: auto; /* maintain aspect ratio */
+	border-radius: 8px; /* optional, for rounded corners */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* optional, for shadow effect */
+  }
+  
+
+@media (max-width: 600px) {
+	.certificate {
+		height: 300px;
+	}
+}

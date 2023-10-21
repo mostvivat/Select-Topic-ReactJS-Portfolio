@@ -31,7 +31,8 @@
 
 .footer-nav-link-list a {
 	text-decoration: none;
-	color: var(--quaternary-color);
+	color: var(--primary-color);
+	font-family: 'RobotoMono Regular';
 }
 
 .footer-nav-link-list a:hover {

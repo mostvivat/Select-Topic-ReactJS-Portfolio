@@ -1,0 +1,13 @@
+.para {
+    max-width: 900px;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+    font-family: 'RobotoMono Regular';
+  }
+  
+  @media only screen  {
+    .para {
+      font-size: 1.4rem;
+    }
+  }
+  

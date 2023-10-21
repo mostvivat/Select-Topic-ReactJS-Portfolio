@@ -1,0 +1,23 @@
+.all-certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust the spacing between cards */
+    padding-top: 30px;
+    padding-bottom: 30px;
+	width: 1200px;
+}
+
+.all-certificates-certificate {
+    flex-basis: calc(33.333% - 20px); /* Adjusted for 3 cards per row, minus margin */
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px; /* Added margin to each card */
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .all-certificates-certificate {
+        flex-basis: calc(100% - 20px); /* Adjusted for 1 card per row on small screens, minus margin */
+        margin: 10px; /* Ensure that margin is added on small screens as well */
+    }
+}
