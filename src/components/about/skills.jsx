@@ -80,19 +80,19 @@ const Skills = () => {
 };
 
 const SkillBox = ({ title, subtitle, images, animation }) => {
-  return (
-    <div className="box" data-aos={animation.direction} data-aos-duration={animation.duration}>
-      <h3>
-        {title}
-        <span> {subtitle}</span>
-      </h3>
-      <div className="image">
-        {images.map((image, index) => (
-          <img key={index} draggable="false" src={image.src} alt={image.alt} />
-        ))}
+    return (
+      <div className="box" data-aos={animation.direction} data-aos-duration={animation.duration}>
+        <h3>
+          {title}
+          <span>{subtitle}</span>
+        </h3>
+        <div className="image">
+          {images.map((image, index) => (
+            <img key={index} draggable="false" src={image.src} alt={image.alt} />
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
-
-export default Skills;
+    );
+  };
+  
+  export default Skills;
