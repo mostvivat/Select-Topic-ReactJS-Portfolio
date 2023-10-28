@@ -98,3 +98,42 @@
     }
   }
 }
+.ptext{
+	width: 580px;
+}
+/* styles/AboutSectionStyles.css */
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.bouncing-text {
+  display: inline-block; /* Ensure inline-block display for the span element */
+  animation: bounce 1.5s infinite;
+}
+/* styles/AboutSectionStyles.css */
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriterText {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #333; /* Adjust border styles as needed */
+  white-space: nowrap;
+  animation: typewriter 3s steps(28) 1s forwards;
+}

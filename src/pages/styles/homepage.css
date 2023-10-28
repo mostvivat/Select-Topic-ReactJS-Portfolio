@@ -9,7 +9,7 @@
 }
 
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 290px;
 }
 
 .homepage-first-area {
@@ -91,8 +91,13 @@
 }
 
 .homepage-works {
-	flex-basis: 470px;
+	flex-basis: 750px;
 	margin-left: -25px;
+}
+.homepage-contact {
+	flex-basis: 750px;
+	padding-left: 20px;
+	
 }
 #line1 {
 	margin-top: 10rem;
@@ -103,7 +108,14 @@
 	font-size: 30px; /* Adjust size as needed */
   }
   
+  .about-socials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
+.about-socials-mobile {
+	display: none;
+}
   
 @media (max-width: 1024px) {
 	.homepage-first-area {

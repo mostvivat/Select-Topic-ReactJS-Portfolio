@@ -23,17 +23,29 @@ export const workDetails = [
 export const eduDetails = [
   {
     Position: "King Mongkut's University of Technology North Bangkok",
-    Company: `BACHELOR OF ENGINEERING PROGRAM IN ELECTRONICS ENGINEERINGTECHNOLOGY(COMPUTER)(EnET(C))`,
+    Company: `Bachelor's Degree in Electronics Engineering Technology (Computer)(EnET(C))`,
     Location: "Wongsawang, Bangkok",
-    Type: "College",
+    Type: "University",
     Duration: "June 2020 - Present",
   },{
     Position: "Horwang School",
-    Company: "Science Technology Engineering Mathematics Program(STEM)",
+    Company: "Science Technology Engineering Mathematics Program (STEM)",
     Location: "Ladprao, Bangkok",
     Type: "High School",
-    Duration: "2017 - 2020",
-  },
+    Duration: "2014 - 2020",
+  },{
+    Position: "King's College School",
+    Company: "-",
+    Location: "Sampran, Nakornpathom",
+    Type: "Elementary School",
+    Duration: "2012- 2014",
+  },{
+    Position: "Chokchai Rangsit School",
+    Company: "-",
+    Location: "Rangsit, Pathumthani",
+    Type: "Elementary School",
+    Duration: "2007- 2012",
+  }
   
 ];
 

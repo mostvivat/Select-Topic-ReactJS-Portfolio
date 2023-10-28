@@ -3,8 +3,11 @@
 .email-wrapper {
 	display: flex;
 	padding-bottom: 20px;
+	padding-left: 5rem;
 }
-
+.social{
+	padding-left: 5rem;
+}
 .social a,
 .email-wrapper a {
 	text-decoration: none;
@@ -13,6 +16,12 @@
 .social-icon {
 	font-size: 15px;
 	color: #000000;
+
+}
+.social-icon .hover{
+	font-size: 15px;
+	color: #0cff9a;
+	
 }
 
 .social-text {
@@ -24,11 +33,11 @@
 }
 
 .email::before {
-	content: "";
 	display: block;
 	padding-top: 20px;
-	border-top: 3px solid #6767f8;
+	border-top: 3px solid #f8c567;
 	margin-top: 20px;
+	padding-left: 20rem;
 }
 
 .email-wrapper {

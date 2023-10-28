@@ -1,0 +1,43 @@
+.form-style {
+    width: 100%;
+  }
+  
+  .form-style .form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .form-style label {
+    font-size: 1.8rem;
+  }
+  
+  .form-style input,
+  .form-style textarea {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    color: #f344;
+    background-color: var#1E1E1E;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  .form-style textarea {
+    min-height: 250px;
+    resize: vertical;
+  }
+  
+  .form-style button[type='submit'] {
+    background-color: #1E1E1E;
+    color: #918989;
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

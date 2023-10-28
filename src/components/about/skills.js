@@ -4,12 +4,6 @@ const Skills = () => {
   return (
     <div className="skills d-flex flex-column" id="skills">
       <div className="container d-flex flex-column">
-        <div className="title" data-aos="fade-down" data-aos-duration="1000">
-          <h2>
-            <i className="fas fa-laptop-code"></i> Skills   
-          </h2>
-        </div>
-
         <SkillBox
           title="Developer"
           subtitle="Tools"
@@ -58,8 +52,7 @@ const Skills = () => {
           title="Other"
           subtitle="Tools"
           images={[
-            //excel canva notion powerpoint obs
-            { src: 'skills/icons8-adobe-premiere-pro.svg', alt: 'Premiere Pro' },      
+            //excel canva notion powerpoint obs 
             { src: 'skills/icons8-adobe-photoshop.svg', alt: 'Photoshop' },
             { src: 'skills/icons8-excel.svg', alt: 'Excel' },
             { src: 'skills/icons8-powerpoint.svg', alt: 'Powerpoint' },
@@ -67,10 +60,6 @@ const Skills = () => {
             { src: 'skills/icons8-canva.svg', alt: 'Canva' },
             { src: 'skills/icons8-notion.svg', alt: 'Notion' },
             { src: 'skills/icons8-obs.svg', alt: 'OBS'}
-        
-
-           
-            //... Add all the other images similarly
           ]}
           animation={{ direction: 'fade-left', duration: '1000' }}
         />

@@ -1,22 +1,16 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
-
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faFacebookF,
-	faGithub,
-	faInstagram,
-	
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF,faGithub,faInstagram,} from "@fortawesome/free-brands-svg-icons";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/homepage/allProjectshome";
 import INFO from "../data/user";
-import SEO from "../data/seo";
-import "./styles/homepage.css";
 import AboutSection from "../components/homepage/AboutSection";
+import Contactsection from "../components/homepage/contactsection"
+import "./styles/homepage.css";
+
 
 const Homepage = () => {
 	
@@ -24,25 +18,11 @@ const Homepage = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-
-	
-
-	const currentSEO = SEO.find((item) => item.page === "home");
-
-	
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				
-			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container"></div>
-
 					<div className="homepage-container" >
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
@@ -57,7 +37,6 @@ const Homepage = () => {
 									</div>
 								</div>
 							</div>
-
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
@@ -117,18 +96,18 @@ const Homepage = () => {
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
-
 						<div className="homepage-after-title">
-							
 							<div className="homepage-works">
 								<Works/>
 							</div>
+							<div className="homepage-contact">
+								<Contactsection/>
+							</div>
 						</div>
-						
 					</div>
 					<div className="page-footer">
-  <Footer />
-</div>
+  						<Footer />
+					</div>
 				</div>
 			</div>
 		</React.Fragment>

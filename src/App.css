@@ -18,12 +18,12 @@
 }
 
 .page-content {
-    background: linear-gradient(180deg, #faeae5, #BCFEFE, #7be9ff);
+    background: linear-gradient(180deg, #faeae5, #BCFEFE, #9ddeeb);
     position: relative;
 }
 /* background: linear-gradient(180deg, #F8DAD0, #BCFEFE, #7be9ff); */
 .content-wrapper {
-	max-width: 1100px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 

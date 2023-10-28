@@ -1,6 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
@@ -9,7 +8,7 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
+				icon={faGraduationCap}
 				title="EDUCATION"
 				body={
 					<div className="works-body">
@@ -36,7 +35,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								HORWANG
 							</div>
-							<div className="work-duration">2017 - 2020</div>
+							<div className="work-duration">2014 - 2020</div>
 						</div>
 					</div>
 				}
